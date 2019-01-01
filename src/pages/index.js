@@ -11,6 +11,7 @@ const TextContainer = styled.div`
     width: fit-content;
     min-height: 100%;
     padding-top: 20%;
+    font-size: 60px;
 `;
 
 export default () => (
