@@ -1,2 +1,2 @@
-import React from "react";git
+import React from "react";
 export default () => <h1>contact</h1>;
