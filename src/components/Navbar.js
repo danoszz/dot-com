@@ -23,17 +23,16 @@ const Nav = styled.nav`
 class Navbar extends React.Component {
     constructor(props) {
         super(props);
-
         this.state = {};
     }
 
     render() {
         return (
             <Nav>
-                <Link to="/About/">About</Link>
-                <Link to="/Work/">Work</Link>
-                <Link to="/Blog/">Blog</Link>
-                <Link to="/Contact/">Contact</Link>
+                {/* <Link to="/about/">About</Link>
+                <Link to="/work/">Work</Link>
+                <Link to="/blog/">Blog</Link>
+                <Link to="/contact/">Contact</Link> */}
             </Nav>
         );
     }
