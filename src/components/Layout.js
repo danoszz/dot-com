@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./NavBar";
+import Navbar from "./Navbar";
 import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
@@ -88,7 +88,7 @@ class Layout extends React.Component {
                     <LeftPanel />
                     <RightPanel />
                 </PanelContainer>
-                <NavBar />
+                <Navbar />
                 <WhiteBorder />
             </Container>
         );

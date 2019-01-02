@@ -20,7 +20,7 @@ const Nav = styled.nav`
     }
 `;
 
-class NavBar extends React.Component {
+class Navbar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -35,4 +35,4 @@ class NavBar extends React.Component {
     }
 }
 
-export default NavBar;
+export default Navbar;
