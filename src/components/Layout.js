@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     #___gatsby > * {
-        height: 100%;
+        height: 100%;gat
         width: 100%;
     }
 `;

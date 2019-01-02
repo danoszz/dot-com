@@ -29,10 +29,7 @@ class NavBar extends React.Component {
     render() {
         return (
             <Nav>
-                {/* <Link to="/about/">About</Link>
-                <Link to="/work/">Work</Link>
-                <Link to="/blog/">Blog</Link>
-                <Link to="/contact/">Contact</Link> */}
+                <h1>test</h1>
             </Nav>
         );
     }
