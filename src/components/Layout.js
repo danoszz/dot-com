@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+import NavBar from "./NavBar";
 import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
@@ -65,6 +65,11 @@ const WhiteBorder = styled.div`
     z-index: -99;
 `;
 
+const ChildContainer = styled.div`
+    height: 100%;
+    padding: 5%;
+`;
+
 class Layout extends React.Component {
     constructor(props) {
         super(props);
@@ -78,12 +83,12 @@ class Layout extends React.Component {
         return (
             <Container>
                 <GlobalStyle />
-                {this.props.children}
+                <ChildContainer>{this.props.children}</ChildContainer>
                 <PanelContainer>
                     <LeftPanel />
                     <RightPanel />
                 </PanelContainer>
-                <Navbar />
+                <NavBar />
                 <WhiteBorder />
             </Container>
         );

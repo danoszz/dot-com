@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 
 const Nav = styled.nav`
     display: flex;
@@ -20,7 +20,7 @@ const Nav = styled.nav`
     }
 `;
 
-class Navbar extends React.Component {
+class NavBar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -38,4 +38,4 @@ class Navbar extends React.Component {
     }
 }
 
-export default Navbar;
+export default NavBar;
