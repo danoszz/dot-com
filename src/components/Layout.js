@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import styled, { createGlobalStyle } from "styled-components";
+import Helmet from "react-helmet";
 
 const GlobalStyle = createGlobalStyle`
     * {
@@ -77,6 +78,19 @@ class Layout extends React.Component {
     render() {
         return (
             <Container>
+                <Helmet
+                    title={"Ruben Nijhuis dot com"}
+                    meta={[
+                        {
+                            name: "description",
+                            content: "Ruben Nijhuis a portfolio"
+                        },
+                        {
+                            name: "keywords",
+                            content: "web-developer designer web"
+                        }
+                    ]}
+                />
                 <GlobalStyle />
                 {this.props.children}
                 <PanelContainer>
